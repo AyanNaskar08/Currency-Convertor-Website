@@ -120,3 +120,96 @@
     width: 100%;
   }
 }
+
+.converter-card {
+  background: #1a3d0c;
+  border-radius: 2.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 80px;
+  padding: 60px;
+  margin-top: 30px;
+}
+
+.converter-card h2 {
+  color: #ffffff;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.converter-inputs .input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: white;
+    font-family: "Funnel Display", sans-serif;
+    font-size: 20px;
+  }
+  
+ .input-group input,
+.currency-select select {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    font-family: "Funnel Display", sans-serif;
+}
+
+.currency-select {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.swap-icon {
+  font-size: 1.5rem;
+  color: #9aff6b;
+}
+
+  input[type="number"]::-webkit-inner-spin-button,
+   input[type="number"]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+   }
+  
+   input[type="number"] {
+     -moz-appearance: textfield;
+   }
+   
+
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn-solid {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-solid {
+  background: #86ff6a;
+  color: #000;
+  width: 300px;
+  height: 50px;
+  font-size: 17px;
+  font-family: "Funnel Display", sans-serif;
+  
+}
+
+.btn-solid:hover {
+  background: #aaff85;
+}
