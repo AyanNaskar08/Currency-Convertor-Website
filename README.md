@@ -15,3 +15,4 @@ A responsive and modern currency converter built with HTML, CSS, and JavaScript.
 --HTML5
 --CSS3
 --JavaScript 
+--ExchangeRatesApi
